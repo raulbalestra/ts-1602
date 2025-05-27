@@ -1,0 +1,39 @@
+{
+  "name": "hoola-strapi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@localazy/strapi-plugin": "^1.0.1",
+    "@strapi/plugin-cloud": "5.12.7",
+    "@strapi/plugin-graphql": "5.12.7",
+    "@strapi/plugin-users-permissions": "5.12.7",
+    "@strapi/provider-upload-aws-s3": "^5.12.7",
+    "@strapi/strapi": "5.12.7",
+    "better-sqlite3": "11.3.0",
+    "process": "^0.11.10",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "6ec57c0a-d39b-4622-8926-94434be685ab"
+  },
+  "packageManager": "yarn@4.5.3+sha512.3003a14012e2987072d244c720506549c1aab73ee728208f1b2580a9fd67b92d61ba6b08fe93f6dce68fd771e3af1e59a0afa28dd242dd0940d73b95fedd4e90"
+}
